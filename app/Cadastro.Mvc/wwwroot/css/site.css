@@ -78,5 +78,33 @@ ul li {
 }
 
 tr td :hover li {
-        display: block;
+    display: block;
+}
+
+div#image {
+    margin-top: -250px
+}
+
+div#interface {
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 1px 1px 2px black;
+    padding:10px
+}
+
+h2 {
+    margin-right: 190px;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+div#ancora {
+    box-shadow: 1px 1px 4px black;
+}
+
+div#create {
+    position:absolute;
+    margin-top:-260px;
+    margin-left:990px
+
 }

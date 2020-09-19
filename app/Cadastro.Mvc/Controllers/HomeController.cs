@@ -1,29 +1,45 @@
 ﻿using System.Diagnostics;
 using System.Threading.Tasks;
+using Cadastro.Interfaces;
+using Cadastro.Mvc.Models;
+using Cadastro.Repositories.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Cadastro.Mvc.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace Cadastro.Mvc.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly CadastroDeContato _cadastro;
+        private readonly ICadastroRepository _cadastroRepository;
 
         public HomeController(ILogger<HomeController> logger
-            , CadastroDeContato cadastro)
+            , ICadastroRepository cadastroRepository)
         {
             _logger = logger;
-            _cadastro = cadastro;
+            _cadastroRepository = cadastroRepository;
         }
-
         public async Task<IActionResult> Index()
         {
-            return View(await _cadastro.Contato.ToListAsync());
+            var contato = _cadastroRepository.ListarContatos();
+            return View(await contato);
         }
-
+        public IActionResult Incluir()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Incluir([Bind("Id,Nome,Cep,Cpf, IdTelefone,Telefone")] ContatoTelefone contato)
+        {
+            
+            if (ModelState.IsValid)
+            {
+                await _cadastroRepository.Cadastrar(contato);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(contato);
+        }
         public IActionResult Privacy()
         {
             return View();
