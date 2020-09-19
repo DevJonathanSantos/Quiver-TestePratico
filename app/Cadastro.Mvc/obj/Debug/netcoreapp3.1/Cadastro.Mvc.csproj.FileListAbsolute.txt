@@ -65,7 +65,6 @@ C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.TagHelpers.input.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.TagHelpers.output.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.RazorCoreGenerate.cache
-C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Cadastro\Index.cshtml.g.cs
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Incluir.cshtml.g.cs
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs

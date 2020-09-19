@@ -19,9 +19,9 @@ namespace Cadastro.Mvc.Controllers
             _logger = logger;
             _cadastroRepository = cadastroRepository;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var contato = _cadastroRepository.ListarContatos();
+            var contato = _cadastroRepository.ListarContatos(searchString);
             return View(await contato);
         }
         public IActionResult Incluir()

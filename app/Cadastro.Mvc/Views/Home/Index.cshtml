@@ -3,6 +3,11 @@
 }
 @model IList<Cadastro.Entities.ContatoTelefone>
 <div id="interface">
+    <form class="form-inline my-2 my-lg-0" asp-action="Index" method="get">
+        <input class="form-control mr-sm-2" type="search" name="SearchString" placeholder="Ex.: João" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+
     <div#ancora>
         <table>
             <thead>

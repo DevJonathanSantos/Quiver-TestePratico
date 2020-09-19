@@ -7,5 +7,7 @@ namespace Cadastro.Entities
     {
         public List<Contato> Contato { get; set; }
         public List<string> Telefones { get; set; }
+        public string SearchString { get; set; }
+
     }
 }
