@@ -30,9 +30,8 @@ namespace Cadastro.Mvc.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Incluir([Bind("Id,Nome,Cep,Cpf, IdTelefone,Telefone")] ContatoTelefone contato)
+        public async Task<IActionResult> Incluir([Bind("Id,Nome,Cep,Cpf,IdTelefone,Telefone")] ContatoTelefone contato)
         {
-            
             if (ModelState.IsValid)
             {
                 await _cadastroRepository.Cadastrar(contato);

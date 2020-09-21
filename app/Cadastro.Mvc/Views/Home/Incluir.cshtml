@@ -6,12 +6,16 @@
                 <div class="form-group">
                     <label for="Nome">Nome:</label>
                     <input asp-for="Nome" class="form-control" placeholder="Ex.: João" maxlength="50">
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+
                 </div>
             </div>
             <div class="col-md-5">
                 <div class="form-group">
                     <label for="Cpf">Cpf:</label>
                     <input asp-for="Cpf" class="form-control" placeholder="Ex.: 999.999.999-99" maxlength="14">
+                    <span asp-validation-for="Cpf" class="text-danger"></span>
+
                 </div>
             </div>
         </div>
@@ -20,24 +24,23 @@
                 <div class="form-group">
                     <label for="Cep">Cep:</label>
                     <input asp-for="Cep" class="form-control" placeholder="Ex.: 01011-100" maxlength="9">
+                    <span asp-validation-for="Cep" class="text-danger"></span>
                 </div>
             </div>
             <div class="col-md-5">
-                <div id="a">
-                    <label for="Telefone">Telefone:</label>
-                    <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
-                </div>
-
-                <div id="b">
-                    <label for="Telefone"></label>
-                    <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
-                    <label for="Telefone"></label>
-                    <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
-                    <label for="Telefone"></label>
-                    <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
-                    <label for="Telefone"></label><input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
-                    <label for="Telefone"></label>
-                </div>
+                <label for="Telefone">Telefone:</label>
+                <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+                <label for="Telefone"></label>
+                <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+                <label for="Telefone"></label>
+                <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+                <label for="Telefone"></label>
+                <input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
+                <label for="Telefone"></label><input asp-for="Telefone" class="form-control" placeholder="Ex.: (11) 95860-7051" maxlength="15">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
         </div>
         <div id="image">
