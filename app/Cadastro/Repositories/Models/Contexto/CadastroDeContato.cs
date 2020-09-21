@@ -7,5 +7,6 @@ namespace Cadastro.Repositories.Models.Contexto
         public CadastroDeContato(DbContextOptions<CadastroDeContato> options)
             : base(options) { }
         public DbSet<Contato> Contato { get; set; }
+        public DbSet<Telefone> Telefone { get; set; }
     }
 }

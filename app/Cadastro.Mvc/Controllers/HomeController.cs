@@ -1,9 +1,14 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 using Cadastro.Interfaces;
 using Cadastro.Mvc.Models;
 using Cadastro.Repositories.Models;
+using Cadastro.Repositories.Models.Contexto;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace Cadastro.Mvc.Controllers
@@ -12,6 +17,7 @@ namespace Cadastro.Mvc.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ICadastroRepository _cadastroRepository;
+        private readonly CadastroDeContato _cadastro;
 
         public HomeController(ILogger<HomeController> logger
             , ICadastroRepository cadastroRepository)
@@ -38,6 +44,12 @@ namespace Cadastro.Mvc.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(contato);
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _cadastroRepository.Delete(id);
+            return RedirectToAction(nameof(Index));
         }
         public IActionResult Privacy()
         {

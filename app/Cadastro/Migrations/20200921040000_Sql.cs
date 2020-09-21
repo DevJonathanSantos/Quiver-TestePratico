@@ -14,13 +14,25 @@ namespace Cadastro.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(nullable: true),
                     Cep = table.Column<string>(nullable: true),
-                    Cpf = table.Column<string>(nullable: true),
-                    IdTelefone = table.Column<int>(nullable: false),
-                    Telefone = table.Column<string>(nullable: true)
+                    Cpf = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Contato", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Telefone",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IdTelefone = table.Column<int>(nullable: false),
+                    Numero = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Telefone", x => x.Id);
                 });
         }
 
@@ -28,6 +40,9 @@ namespace Cadastro.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Contato");
+
+            migrationBuilder.DropTable(
+                name: "Telefone");
         }
     }
 }

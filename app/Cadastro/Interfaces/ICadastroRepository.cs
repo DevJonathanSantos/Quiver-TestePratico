@@ -7,5 +7,6 @@ namespace Cadastro.Interfaces
     {
         public Task<IList<Entities.ContatoTelefone>> ListarContatos(string searchString);
         public Task Cadastrar(Repositories.Models.ContatoTelefone contato);
+        public Task Delete(int id);
     }
 }

@@ -58,6 +58,8 @@ C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\bin\Debug\netcoreapp3.1
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.csprojAssemblyReference.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.AssemblyInfoInputs.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.AssemblyInfo.cs
+C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.csproj.CoreCompileInputs.cache
+C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.RazorAssemblyInfo.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.RazorAssemblyInfo.cs
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.TagHelpers.input.cache
@@ -80,5 +82,4 @@ C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.dll
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.pdb
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.genruntimeconfig.cache
-C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.csproj.CoreCompileInputs.cache
-C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Cadastro.Mvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\study\Front-end\TesteQuiver\app\Cadastro.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs

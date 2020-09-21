@@ -3,10 +3,10 @@ C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\bin\Debug\netcoreapp3.1\Cad
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\bin\Debug\netcoreapp3.1\Cadastro.runtimeconfig.dev.json
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\bin\Debug\netcoreapp3.1\Cadastro.dll
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\bin\Debug\netcoreapp3.1\Cadastro.pdb
+C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.csprojAssemblyReference.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.AssemblyInfoInputs.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.AssemblyInfo.cs
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.csproj.CoreCompileInputs.cache
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.dll
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.pdb
 C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.genruntimeconfig.cache
-C:\Projects\study\Front-end\TesteQuiver\app\Cadastro\obj\Debug\netcoreapp3.1\Cadastro.csprojAssemblyReference.cache
